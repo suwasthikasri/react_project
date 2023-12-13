@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('./aero14.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 400px;
+    background: #d0e0e2d8;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(237, 240, 240, 0.903);
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: #083f65;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 80px;
+    height: 8px;
+    background: #4c00b4;
+    border-radius: 10px;
+}
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    padding:0px;
+    background: #eaeaea;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.input img{
+    margin: 0px 20px;
+}
+.input input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #2d3a4b;
+    font-size: 18px;
+    padding: 10px;
+}
+.forgot-password{
+    padding-left: 20px;
+    margin-top: 20px;
+    color: #ed2c2c;
+    font-size: 16px;
+}
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 10px;
+    margin: 30px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    background: #34e0f0;
+    border-radius: 50px;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.gray{
+    background: #f8eeee;
+    color: #676767;
+}
+
+
+
+.submit:hover,
+.gray:hover{
+    background:#2e8aec;
+    color:#fff
+}
+
+.submit,
+.gray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background 0.3s, color 0.3s;
+}
